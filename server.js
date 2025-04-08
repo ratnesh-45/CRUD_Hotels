@@ -14,6 +14,7 @@ app.get("/", (req, res) => {
   res.send("This is hotel.. plz gives the order.");
 });
 
+//import person route in server file
 const personRoute=require("./routes/personRoutes")
 app.use('/person',personRoute)
 
