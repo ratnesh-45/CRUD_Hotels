@@ -1,0 +1,20 @@
+{
+  "name": "node_tutorial",
+  "version": "1.0.0",
+  "description": "This is node-js tutorial project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Ratnesh kumar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.13.2",
+    "node_tutorial": "file:",
+    "nodemon": "^3.1.9"
+  }
+}
